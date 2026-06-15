@@ -1,0 +1,79 @@
+[TERRAIN_WEIGHTS]
+GROUND=1
+FOREST=2
+SAND=3
+WATER=4
+LAVA=5
+WALL=2147483647
+
+[CHECKPOINTS]
+A1;Spawn Gate;0;0;North;1;Potion;2;false
+A2;Whisper Woods;1;0;North;2;Herbs;3;false
+A3;Crystal Brook;2;0;North;2;Gem;2;false
+A4;Sand Watch;3;0;North;3;Map;4;false
+A5;Ember Ridge;4;0;North;4;Ore;6;false
+A6;Naoval's Garden;5;0;North;3;Durian;90;false
+B1;Iron Camp;0;1;West;2;Arrow;3;false
+B2;Moss Tunnel;1;1;West;3;Key;5;false
+B3;Ruined Bridge;2;1;Central;3;Relic;6;false
+B4;Dune Pass;3;1;East;3;Scroll;4;false
+B5;Lava Mouth;4;1;East;5;Core;8;false
+C1;Old Dock;0;2;West;2;Fish;2;false
+C2;Silent Marsh;1;2;Central;4;Pearl;6;false
+C3;Forbidden Core;2;2;Central;5;Artifact;9;true
+C4;Sunken Vault;3;2;East;4;Coin;7;false
+C5;Molten Stair;4;2;East;5;Crystal;8;false
+D1;Pine Shelter;0;3;South;1;Wood;2;false
+D2;Mist Crossing;1;3;South;2;Herb;3;false
+D3;Ancient Plaza;2;3;Central;3;Rune;5;false
+D4;Broken Tower;3;3;South;4;Gear;6;false
+D5;Ash Canyon;4;3;East;5;Ember;7;false
+E1;Harbor Exit;0;4;South;1;Rope;1;false
+E2;Green Hollow;1;4;South;2;Fruit;2;false
+E3;Watch Post;2;4;South;2;Badge;3;false
+E4;Shattered Gate;3;4;South;3;Medal;4;false
+E5;Final Beacon;4;4;South;4;Crown;5;false
+
+[ROUTES]
+A1;A2;GROUND;1
+A1;A6;LAVA;54
+A1;B1;GROUND;1
+A2;A3;FOREST;1
+A2;B2;FOREST;1
+A3;A4;SAND;1
+A3;B3;GROUND;1
+A4;A5;LAVA;1
+A4;B4;SAND;1
+A5;B5;LAVA;1
+A6;E2;LAVA;6
+B1;B2;GROUND;1
+B1;C1;GROUND;1
+B2;B3;WATER;1
+B2;C2;WATER;1
+B3;B4;SAND;1
+B3;C3;WALL;1
+B4;B5;LAVA;1
+B4;C4;WATER;1
+B5;C5;LAVA;1
+C1;C2;WATER;1
+C1;D1;FOREST;1
+C2;C3;WALL;1
+C2;D2;GROUND;1
+C3;C4;WALL;1
+C3;D3;WALL;1
+C4;C5;LAVA;1
+C4;D4;SAND;1
+C5;D5;LAVA;1
+D1;D2;GROUND;1
+D1;E1;GROUND;1
+D2;D3;FOREST;1
+D2;E2;GROUND;1
+D3;D4;GROUND;1
+D3;E3;FOREST;1
+D4;D5;SAND;1
+D4;E4;GROUND;1
+D5;E5;SAND;1
+E1;E2;GROUND;1
+E2;E3;GROUND;1
+E3;E4;FOREST;1
+E4;E5;GROUND;1
