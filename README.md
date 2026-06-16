@@ -94,3 +94,62 @@ java -cp out Main
 - `WALL` dianggap impassable.
 - Heuristic A* memakai Manhattan distance berdasarkan koordinat checkpoint.
 - Jalur hasil A* tetap optimal, sedangkan jumlah node yang diekspansi dibandingkan pada menu HOTS untuk menunjukkan pengaruh heuristic.
+
+## Hasil Screenshot Program
+1. Tampilan Menu
+![1](images/1.jpeg)
+2. Menu 1: Tampilkan semua checkpoint
+![2](images/2.jpeg)
+
+3. Menu 2: Tampilkan Struktur Graph
+![3](images/3.jpeg)
+
+4. Menu 3: Search Checkpoint
+![2](images/4.1.jpeg)
+![2](images/4.2.jpeg)
+5. Menu 4: Insert Checkpoint
+![2](images/5.1.jpeg)
+![2](images/5.2.jpeg)
+
+6. Menu 5: Update Checkpoint
+![2](images/6.jpeg)
+
+7. Menu 6: Delete Checkpoint
+![2](images/7.jpeg)
+
+8. Menu 7: Kelola route/edge
+- Tambah route
+![2](images/8.jpeg)
+
+- Update route
+![2](images/8.2.jpeg)
+
+- Delete node
+![2](images/8.3.jpeg)
+
+9. Menu 8: Tampilkan area tidak dapat dilewati
+![2](images/9.jpeg)
+
+10. Menu 9: Eksplorasi map dengan BFS
+![2](images/10.jpeg)
+
+11. Menu 10: Cari jalur dengan A*
+![2](images/11.jpeg)
+
+12. Menu 11: Bandingkan heuristic A* vs tanpa heuristic
+![2](images/12.jpeg)
+
+13. Menu 12: Ubah bobot terrain
+![2](images/13.jpeg)
+
+14. Menu 13: Tampilkan checkpoint prioritas heap
+![2](images/14.jpeg)
+
+15. Menu 14: Simpan dataset
+![2](images/15.jpeg)
+
+16. Menu 0: Keluar
+![2](images/16.jpeg)
+
+17. Menu selain 0 - 14
+![2](images/17.jpeg)
