@@ -97,15 +97,19 @@ java -cp out Main
 
 ## Hasil Screenshot Program
 1. Tampilan Menu
+
 ![1](images/1.jpeg)
 
 2. Menu 1: Tampilkan semua checkpoint
+
 ![2](images/2.jpeg)
 
 3. Menu 2: Tampilkan Struktur Graph
+
 ![3](images/3.jpeg)
 
 4. Menu 3: Search Checkpoint
+
 ![2](images/4.1.jpeg)
 
 ![2](images/4.2.jpeg)
@@ -127,12 +131,15 @@ java -cp out Main
 8. Menu 7: Kelola route/edge
 
 - Tambah route
+
 ![2](images/8.jpeg)
 
 - Update route
+
 ![2](images/8.2.jpeg)
 
 - Delete node
+
 ![2](images/8.3.jpeg)
 
 9. Menu 8: Tampilkan area tidak dapat dilewati
