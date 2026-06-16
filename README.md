@@ -175,4 +175,5 @@ java -cp out Main
 ![2](images/16.jpeg)
 
 17. Menu selain 0 - 14
+
 ![2](images/17.jpeg)
